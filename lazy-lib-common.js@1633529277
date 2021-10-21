@@ -1,0 +1,40 @@
+
+function loadImagesLazy() {
+    try {
+        $('.ui-lazy').Lazy({
+            afterLoad: function (element) {
+                if ($(element).parents('.bx-viewport').length > 0) {
+                    $('.bx-viewport').css('height', 'auto');
+                }
+            },
+            beforeLoad: function (element) {
+                if (!$(element).attr('src')) {
+                    let w = $(element).attr('width');
+                    let h = $(element).attr('height');
+                    w = (w) ? w : 1;
+                    h = (h) ? h : 1;
+                    $(element).attr('src', 'data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 ' + w + ' ' + h + '\ width=\'' + w + '\' height=\'' + h + '\'%3E%3C/svg%3E');
+                }
+            },
+            bind: 'event',
+            threshold: 200,
+            scrollDirection: 'vertical',
+            effect: 'fadeIn',
+            visibleOnly: true
+        });
+    }
+    catch (err) {
+        // Fallback if the plugin fails or not exists
+        $("img.ui-lazy").each(function () {
+            if (jQuery(this).attr("data-src")) {
+                jQuery(this).attr('src', jQuery(this).attr("data-src"));
+            }
+        });
+    }
+}
+
+jQuery(function ($) {
+    $(document).ready(function(){
+        loadImagesLazy();
+    });
+});

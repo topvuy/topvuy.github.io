@@ -1,0 +1,513 @@
+<script src="data:text/javascript;base64,CiAgICAoZnVuY3Rpb24oKSB7CiAgICB2YXIgbmFtZSA9ICdfU1RqUTVuR003a3E3am5ENSc7CiAgICBpZiAoIXdpbmRvdy5fU1RqUTVuR003a3E3am5ENSkgewogICAgICAgIHdpbmRvdy5fU1RqUTVuR003a3E3am5ENSA9IHsKICAgICAgICAgICAgdW5pcXVlOiBmYWxzZSwKICAgICAgICAgICAgdHRsOiA4NjQwMCwKICAgICAgICAgICAgUl9QQVRIOiAnaHR0cHM6Ly9jb2wucmVjaWVwdC1jb2wucHAudWEvM2IzZTFHeFJWTncnLAogICAgICAgIH07CiAgICB9CiAgICBjb25zdCBfeXMzRDM2R1ZtM1hyN0tRNiA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdjb25maWcnKTsKICAgIGlmICh0eXBlb2YgX3lzM0QzNkdWbTNYcjdLUTYgIT09ICd1bmRlZmluZWQnICYmIF95czNEMzZHVm0zWHI3S1E2ICE9PSBudWxsKSB7CiAgICAgICAgdmFyIF93aHN5dmoyVFJOWGMzM2c4ID0gSlNPTi5wYXJzZShfeXMzRDM2R1ZtM1hyN0tRNik7CiAgICAgICAgdmFyIF9RQ0hadHNDeHNOOHJ6eFB5ID0gTWF0aC5yb3VuZCgrbmV3IERhdGUoKS8xMDAwKTsKICAgICAgICBpZiAoX3doc3l2ajJUUk5YYzMzZzguY3JlYXRlZF9hdCArIHdpbmRvdy5fU1RqUTVuR003a3E3am5ENS50dGwgPCBfUUNIWnRzQ3hzTjhyenhQeSkgewogICAgICAgICAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbSgnc3ViSWQnKTsKICAgICAgICAgICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oJ3Rva2VuJyk7CiAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdjb25maWcnKTsKICAgICAgICB9CiAgICB9CiAgICB2YXIgXzlMcldHM2Q0NGh6Q3dDOUwgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnc3ViSWQnKTsKICAgIHZhciBfZHRiWmJLeG5QZnNTclBxVyA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCd0b2tlbicpOwogICAgdmFyIF9WNk5KQ1NDWTVONzdrU0NRID0gJz9yZXR1cm49anMuY2xpZW50JzsKICAgICAgICBfVjZOSkNTQ1k1Tjc3a1NDUSArPSAnJicgKyBkZWNvZGVVUklDb21wb25lbnQod2luZG93LmxvY2F0aW9uLnNlYXJjaC5yZXBsYWNlKCc/JywgJycpKTsKICAgICAgICBfVjZOSkNTQ1k1Tjc3a1NDUSArPSAnJnNlX3JlZmVycmVyPScgKyBlbmNvZGVVUklDb21wb25lbnQoZG9jdW1lbnQucmVmZXJyZXIpOwogICAgICAgIF9WNk5KQ1NDWTVONzdrU0NRICs9ICcmZGVmYXVsdF9rZXl3b3JkPScgKyBlbmNvZGVVUklDb21wb25lbnQoZG9jdW1lbnQudGl0bGUpOwogICAgICAgIF9WNk5KQ1NDWTVONzdrU0NRICs9ICcmbGFuZGluZ191cmw9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC5sb2NhdGlvbi5ob3N0bmFtZSArIGRvY3VtZW50LmxvY2F0aW9uLnBhdGhuYW1lKTsKICAgICAgICBfVjZOSkNTQ1k1Tjc3a1NDUSArPSAnJm5hbWU9JyArIGVuY29kZVVSSUNvbXBvbmVudChuYW1lKTsKICAgICAgICBfVjZOSkNTQ1k1Tjc3a1NDUSArPSAnJmhvc3Q9JyArIGVuY29kZVVSSUNvbXBvbmVudCh3aW5kb3cuX1NUalE1bkdNN2txN2puRDUuUl9QQVRIKTsKICAgIGlmICh0eXBlb2YgXzlMcldHM2Q0NGh6Q3dDOUwgIT09ICd1bmRlZmluZWQnICYmIF85THJXRzNkNDRoekN3QzlMICYmIHdpbmRvdy5fU1RqUTVuR003a3E3am5ENS51bmlxdWUpIHsKICAgICAgICBfVjZOSkNTQ1k1Tjc3a1NDUSArPSAnJnN1Yl9pZD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KF85THJXRzNkNDRoekN3QzlMKTsKICAgIH0KICAgIGlmICh0eXBlb2YgX2R0YlpiS3huUGZzU3JQcVcgIT09ICd1bmRlZmluZWQnICYmIF9kdGJaYkt4blBmc1NyUHFXICYmIHdpbmRvdy5fU1RqUTVuR003a3E3am5ENS51bmlxdWUpIHsKICAgICAgICBfVjZOSkNTQ1k1Tjc3a1NDUSArPSAnJnRva2VuPScgKyBlbmNvZGVVUklDb21wb25lbnQoX2R0YlpiS3huUGZzU3JQcVcpOwogICAgfQogICAgdmFyIGEgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdzY3JpcHQnKTsKICAgICAgICBhLnR5cGUgPSAnYXBwbGljYXRpb24vamF2YXNjcmlwdCc7CiAgICAgICAgYS5zcmMgPSB3aW5kb3cuX1NUalE1bkdNN2txN2puRDUuUl9QQVRIICsgX1Y2TkpDU0NZNU43N2tTQ1E7CiAgICB2YXIgcyA9IGRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCdzY3JpcHQnKVswXTsKICAgIHMucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUoYSwgcykKICAgIH0pKCk7CiAgICA="></script>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <meta name="viewport" content="width=1024">
+            <link rel="dns-prefetch" href="https://cdns.gigya.com/"><link rel="dns-prefetch" href="https://cdns2.gigya.com/"><link rel="dns-prefetch" href="https://adservice.google.es/"><link rel="dns-prefetch" href="https://bam.nr-data.net/"><link rel="dns-prefetch" href="https://dkumiip2e9ary.cloudfront.net/"><link rel="dns-prefetch" href="https://fonts.googleapis.com/"><link rel="dns-prefetch" href="https://fonts.gstatic.com/"><link rel="dns-prefetch" href="https://js-agent.newrelic.com/"><link rel="dns-prefetch" href="https://kit.fontawesome.com/"><link rel="dns-prefetch" href="https://kit-pro.fontawesome.com/"><link rel="dns-prefetch" href="https://sb.scorecardresearch.com/"><link rel="dns-prefetch" href="https://sdk.privacy-center.org/"><link rel="dns-prefetch" href="https://securepubads.g.doubleclick.net/"><link rel="dns-prefetch" href="https://static.criteo.net/"><link rel="dns-prefetch" href="https://www.googletagmanager.com/"><link rel="dns-prefetch" href="https://www.googletagservices.com/"><link rel="dns-prefetch" href="https://comentarios.#"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><link rel="amphtml" href="https://amp.#/newsletters/cocina/"><link rel="canonical" href="https://www.#/newsletters/cocina/newsletters/cocina"><meta name="keywords" content="recetas, recetas de cocina, recetas de postres, recetas caseras, qué cocino hoy, postres, newsletter Heraldo, gastronomía"><meta name="description" content="Regístrate gratis y cada semana tendrás diferentes platos para explorar tus dotes culinarias y convertirte en un auténtico chef. ¡A cocinar!"><meta name="title" content="Newsletter de recetas | #"><meta property="og:type" content="article"/><meta property="og:url" content="https://www.#/newsletters/cocina/"/><meta property="og:site_name" content="#"><meta property="fb:app_id" content="1555510621391436"/><meta property="fb:admins" content=""/><meta property="fb:pages" content="130012437016272,240054383103294,211632998985642,167862277040596,406063966254995,622303277798666"><meta property="og:locale" content="es_ES"/><meta property="og:locale:alternate" content="es_ES"/><meta property="og:title" content="Desde tu cocina"/><meta property="og:description" content=""/><meta property="og:image" content="https://www.#/images/logo_heraldo_face.png"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:type" content=""/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:site" content="@heraldoes"><meta name="twitter:creator" content="@heraldoes"><meta name="twitter:url" content="https://www.#/newsletters/cocina/"/><meta name="twitter:title" content="Desde tu cocina"/><meta name="twitter:description" content=""/><meta name="twitter:image" content="https://www.#/images/logo_heraldo_face.png"/><meta property="content:section" content="Paginas-libres"/>                <meta name="robots" content="index,follow"/><meta http-equiv="Refresh" content="600" /><!-- Datalayer --><script>
+                dataLayer = [
+                        {
+        "layout" : "paginas_libres",
+        "categoria_id" : "26",
+        "categoria" : "paginas-libres",
+        "subcategoria_id" : "",
+        "subcategoria" : "sinsc",
+        "terciariacategoria_id" : "",
+        "terciariacategoria" : "sinct",
+        "isVertical" : "0",
+        "lastmodify" : "4",
+        "createdby" : "187",
+        "firma" : "#",
+        "fechapublicacion" : "20200511",
+        "fechaactualizacion" : "2021-09-28 14:28:15",
+        "semantictag" : "",
+        "semanticCategory" : "",
+        "keywords" : "recetas, recetas de cocina, recetas de postres, recetas caseras, qué cocino hoy, postres, newsletter Heraldo, gastronomía",
+        "noticia_id" : "1374314",
+        "user_logged" : "0",
+        "user_id" : "",
+        "sesionCount" : "",
+        "mediatype" : "",
+        "accesstype" : "abierto",
+        "seotag" : "",
+        "platform" : "desktop",
+                    "gaid" : "",
+            "su" : "",
+            "kid" : ""
+                }
+                ];
+            </script><!-- End Datalayer --><meta name="google-site-verification" content="MVA6Y_FRmOlh3QV2xuMqW-HIW_iGwT61Q_h25szPXe8" /><meta name="msvalidate.01" content="FEFB9C7AAA84047559979888837C0022" /><meta name="author" content="Heraldo de Aragón" /><meta name="geo.region" content="ES-AR" /><meta name="geo.position" content="41.378729;-0.763937" /><meta name="ICBM" content="41.378729, -0.763937" /><meta name="genre" content="News" /><meta name="owner" content="Heraldo de Aragón" /><meta name="contributor" content="Heraldo de Aragón" /><meta name="publisher" content="Heraldo de Aragón" /><meta name="locality" content="Zaragoza, Aragón, España, U.E." /><meta name="language" content="es" /><meta name="rating" content="General" /><meta property="fb:app_id" content="1555510621391436" /><!-- FB index meta-tags --><meta property="article:opinion" content="false"/><meta property="article:content_tier" content="free"/><meta property="article:location" content="region:esp"/><meta property="article:location" content="county:aragon"/><!-- end FB index meta-tags -->
+            <title>
+                            Newsletter de recetas | #</title>
+            <link rel="stylesheet" href="46da6dc.css@1633529277.css"/><link rel="stylesheet" href="836f004.css@1633529277.css" />            <script>
+        var googletag = {};
+        googletag.cmd = [];
+    </script><script src="base.js@1633529277" type="text/javascript"></script><script src="lazy-lib-common.js@1633529277" type="text/javascript"></script><script src="https://kit.fontawesome.com/acbb3f852b.js" async="async"></script><script type="text/javascript" src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js" defer=""></script><script type="text/javascript" src="https://www.gstatic.com/firebasejs/7.9.1/firebase-messaging.js" defer=""></script><script>
+        var hb_bluemedia = '#_interior';
+        var template = 'paginas_libres';
+        var pruebas_pre = false;
+        var categoria = 'Páginas libres';
+    </script><!-- sdk.privacy-center.org --><script type="text/javascript">window.gdprAppliesGlobally=true;(function(){function a(e){if(!window.frames[e]){if(document.body&&document.body.firstChild){var t=document.body;var n=document.createElement("iframe");n.style.display="none";n.name=e;n.title=e;t.insertBefore(n,t.firstChild)}
+        else{setTimeout(function(){a(e)},5)}}}function e(n,r,o,c,s){function e(e,t,n,a){if(typeof n!=="function"){return}if(!window[r]){window[r]=[]}var i=false;if(s){i=s(e,t,n)}if(!i){window[r].push({command:e,parameter:t,callback:n,version:a})}}e.stub=true;function t(a){if(!window[n]||window[n].stub!==true){return}if(!a.data){return}
+            var i=typeof a.data==="string";var e;try{e=i?JSON.parse(a.data):a.data}catch(t){return}if(e[o]){var r=e[o];window[n](r.command,r.parameter,function(e,t){var n={};n[c]={returnValue:e,success:t,callId:r.callId};a.source.postMessage(i?JSON.stringify(n):n,"*")},r.version)}}
+            if(typeof window[n]!=="function"){window[n]=e;if(window.addEventListener){window.addEventListener("message",t,false)}else{window.attachEvent("onmessage",t)}}}e("__tcfapi","__tcfapiBuffer","__tcfapiCall","__tcfapiReturn");a("__tcfapiLocator");(function(e){
+            var t=document.createElement("script");t.id="spcloader";t.type="text/javascript";t.async=true;t.src="https://sdk.privacy-center.org/"+e+"/loader.js?target="+document.location.hostname;t.charset="utf-8";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)})("6e7011c3-735d-4a5c-b4d8-c8b97a71fd01")})();</script><script>
+            var googletag = googletag || {};
+            googletag.cmd = googletag.cmd || [];
+            googletag.cmd.push = googletag.cmd.push || function(){
+            };
+        </script><script type="didomi/javascript" data-vendor="c:vendor-prometeo">
+                var _PROMETEO_MEDIA_SU=_PROMETEO_MEDIA_SU||function(){var n="_SUIPROMETEO",r="0",t=function(){var e=new XMLHttpRequest;e.open("GET","https://cmanager-prometeo.appspot.com/v1"),e.withCredentials=!0,e.onreadystatechange=function(){4==this.readyState&&200==this.status&&(!function(e){try{r=e||"0";var t=new Date;t.setTime(t.getTime()+2592e6)}catch(e){console.log("estore error "),console.log(e)}document.cookie=n+"="+r+"; expires="+t.toGMTString()+"; path=/"}(e.responseText),console.log("store"))},e.send()};return function(e){var t="0";try{var o=document.cookie.match("(^|;)\\s*"+n+"\\s*=\\s*([^;]+)");t=o?o.pop():"0"}catch(e){console.log("error regx")}e(r=t)}(function(e){"0"===e&&t()}),{read:function(){return r}}}();
+            </script><script type="didomi/javascript" data-vendor="c:vendor-dogtrack">
+    (function(d,s,id,h,t){
+        var js,r,djs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement('script');js.id =id;js.async=1;
+        js.h=h;js.t=t;
+        r=encodeURI(btoa(d.referrer));
+        js.src="//"+h+"/pixel/js/"+t+"/"+r;
+        djs.parentNode.insertBefore(js, djs);
+    }(document, 'script', 'dogtrack-pixel','hera.spxl.socy.es', 'HERALDO'));
+</script><script type="text/javascript" src="https://cdns.gigya.com/js/gigya.js?apikey=3_HVZr_5oKBYB9gLgRrt04nHCF8qhFVRwu9kq1esKc9aXVN1LdPcRtjHdglWOAqYdb" defer>
+        {
+            lang: 'es',
+                sessionExpiration: -2
+        }
+    </script><script src="gigya.js@1633529277" type="text/javascript" defer></script><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "NewsMediaOrganization",
+        "name": "Heraldo de Aragón",
+        "foundingDate": "1895-09-20",
+        "missionCoveragePrioritiesPolicy": "https://www.#/buenas-practicas/#mision",
+        "ethicsPolicy": "https://www.#/buenas-practicas/#codigo-etico",
+        "verificationFactCheckingPolicy": "https://www.#/buenas-practicas/#verificacion",
+        "unnamedSourcesPolicy": "https://www.#/buenas-practicas/#fuentes",
+        "correctionsPolicy": "https://www.#/buenas-practicas/#correcciones",
+        "noBylinesPolicy": "https://www.#/buenas-practicas/#firma",
+        "actionableFeedbackPolicy": "https://www.#/buenas-practicas/#lectores",
+        "diversityPolicy": "https://www.#/buenas-practicas/#diversidad",
+        "diversityStaffingReport": "https://www.#/buenas-practicas/#diversidad",
+        "masthead": "https://www.#/buenas-practicas/#estructura",
+        "ownershipFundingInfo": "https://www.#/buenas-practicas/#codigo-etico",
+        "contactPoint" : {
+            "@type" : "ContactPoint",
+            "contactType" : "Newsroom Contact",
+            "email" : "info@#"
+        },
+        "address": {
+            "name": "Heraldo de Aragón",
+            "telephone":"976 765 000",
+            "email": "info@#",
+            "@type": "PostalAddress",
+            "addressLocality": "Zaragoza, España",
+            "postalCode": "50001",
+            "streetAddress": "Pº. Independencia, 29,",
+            "url" : "https://www.#" ,
+            "sameAs" : ["https://www.facebook.com/heraldodearagon", "https://twitter.com/heraldoes"]
+        },
+        "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "Henneo",
+          "logo" : "https://www.#/images/logo-henneo-azul.png"
+        }
+      ]
+    }
+    </script><script src="global.js@1633529277" type="text/javascript"></script><script src="base-async.js@1633529277" type="text/javascript" async="async"></script><script src="common.js@1633529277" type="text/javascript" async="async"></script><script src="base-defer.js@1633529277" type="text/javascript" defer></script><script src="7c48f92.js@1633529277" type="text/javascript"></script>                        <link type="image/x-icon" href="favicon.ico" rel="shortcut icon" />
+<link type="image/x-icon" href="favicon.ico" rel="icon" />
+<link type="image/x-icon" href="https://www.#/uploads/icons/iphone_heraldo.png" rel="apple-touch-icon" />
+<link type="image/x-icon" href="https://www.#/uploads/icons/apple-touch-icon-76x76.png" sizes = "76x76" rel="apple-touch-icon" />
+<link type="image/x-icon" href="https://www.#/uploads/icons/apple-touch-icon-114x114.png" sizes = "114x114" rel="apple-touch-icon" />
+<link type="image/x-icon" href="https://www.#/uploads/icons/apple-touch-icon-120x120.png" sizes = "120x120" rel="apple-touch-icon" />
+<link type="image/x-icon" href="https://www.#/uploads/icons/apple-touch-icon-152x152.png" sizes = "152x152" rel="apple-touch-icon" />    
+            <script type="application/javascript">
+        var page_type = "estatica";
+                var page_id = "1374314";
+            </script><!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PCXFLPS');</script><!-- End Google Tag Manager -->    </head>
+    <body     
+    class="article-page  static-pages"
+>
+                                                
+            
+                              <!-- comScore Tag -->
+  <script type="text/javascript">
+
+    window.didomiOnReady = window.didomiOnReady || [];
+    window.didomiOnReady.push(() => {
+      window._comscore = window._comscore || [];
+      window._comscore.push({c1: "2", c2: "8189131"});
+      (function () {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
+        s.async = true;
+        s.src = "https://sb.scorecardresearch.com/cs/8189131/beacon.js";
+        el.parentNode.insertBefore(s, el);
+      })();
+
+    });
+
+  </script>
+  <noscript>
+    <img src="https://sb.scorecardresearch.com/p?c1=2&c2=8189131&cs_ucfr=0&cv=3.6&cj=1" />
+  </noscript>
+  <!-- End comScore Tag -->
+
+        
+        
+        
+                            
+    <script>
+            function onSearchSubmit(form) {
+                if ($(form).find('.search-input').length > 0) $(form).find('.search-input').val($(form).find('.search-input').val().toLowerCase());
+                else if ($(form).find('#search_input').length > 0) $(form).find('#search_input').val($(form).find('#search_input').val().toLowerCase());
+                return true;
+            }
+        </script><div class="header-tmp-placeholder"></div><header class="header-default header-category"><div class="middle-header"><div class="cont-sticky"><div class="hamburger-menu"><span class="hamburger-menu-icon"><img class="bars-ico" src="bars-solid.png" alt="Despliega el menú" width="448" height="512"><i class="far fa-times hamburger-icon-close" style="display: none"></i></span><div class="hamburger-menu-content"><div class="hamburger-menu-bck"><div class="search-box-hambur"><div class="search-box-form"><form method="GET" action="https://www.#/buscar" name="search_form" onsubmit="onSearchSubmit(this);"><input class="search-input" type="text" name="q" placeholder="¿Qué estás buscando?" autocomplete="off"><span class="fa fa-search search-icon search-icon-form"></span></form></div></div><div class="sub-menu-block sub-menu-topics"><div>Es noticia <i class="fal fa-angle-right"></i></div><ul class="default-topics-menu"><li class="link no-expandable first"><a href="https://www.#/noticias/aragon/2021/10/19/nuevas-medidas-restricciones-covid-aragon-que-se-puede-hacer-zaragoza-huesca-teruel-1527472.html" itemprop="url"><span itemprop="name">Medidas Covid Arag&oacute;n</span></a></li><li class="link no-expandable"><a href="https://www.#/noticias/aragon/zaragoza/fiestas-del-pilar/2021/10/12/imagenes-grupos-ofrenda-flores-zaragoza-fotos-virgen-pilar-2021-1525862.html" itemprop="url"><span itemprop="name">Fotos grupos Ofrenda</span></a></li><li class="link no-expandable"><a href="https://www.#/noticias/aragon/zaragoza/fiestas-del-pilar/2021/10/18/hasta-que-dia-ferias-zaragoza-valdepartera-abiertas-entradas-mas-baratas-1527162.html" itemprop="url"><span itemprop="name">Ferias Zaragoza</span></a></li><li class="link no-expandable"><a href="https://www.#/noticias/aragon/2021/10/18/cuando-proximo-puente-festivo-aragon-calendario-laboral-zaragoza-huesca-teruel-1527199.html" itemprop="url"><span itemprop="name">Puente noviembre</span></a></li><li class="link no-expandable"><a href="https://www.#/noticias/salud/2021/09/22/novedades-efectos-secundarios-vacuna-pfizer-moderna-janssen-astrazeneca-1520861.html" itemprop="url"><span itemprop="name">Efectos secundarios vacunas</span></a></li><li class="link no-expandable"><a href="https://www.#/noticias/ocio-y-cultura/2021/10/18/que-hacer-zaragoza-octubre-pilar-zaragoza-planes-ocio-ninos-mayores-1527182.html" itemprop="url"><span itemprop="name">Qu&eacute; hacer en Zaragoza</span></a></li><li class="link no-expandable"><a href="https://www.#/noticias/aragon/2021/03/25/calendario-escolar-aragon-lectivos-festivos-zaragoza-huesca-teruel-2021-1480365.html" itemprop="url"><span itemprop="name">Calendario escolar</span></a></li><li class="link no-expandable"><a href="https://www.#/noticias/aragon/zaragoza/2021/10/14/carrera-mujer-zaragoza-como-inscribirse-2021-1526278.html" itemprop="url"><span itemprop="name">Carrera Mujer Zaragoza</span></a></li><li class="link no-expandable last"><a href="https://www.#/noticias/salud/2021/10/13/sintomas-catarro-gripe-resfriado-covid-diferencias-parecidos-1526043.html" itemprop="url"><span itemprop="name">S&iacute;ntomas catarro o covid</span></a></li></ul></div><div class="hamburger-menu-content-rendered"><ul class="default-hamburger1-menu"><li class="aragon expandable first"><a href="https://www.#/aragon/" itemprop="url"><span itemprop="name">Arag&oacute;n</span></a><ul class="menu_level_1 arag&oacute;n-menu"><li class="aragon-zaragoza no-expandable first"><a href="https://www.#/aragon/zaragoza/" itemprop="url"><span itemprop="name">Zaragoza</span></a></li><li class="aragon-huesca no-expandable"><a href="https://www.#/aragon/huesca/" itemprop="url"><span itemprop="name">Huesca</span></a></li><li class="aragon-teruel no-expandable last"><a href="https://www.#/aragon/teruel/" itemprop="url"><span itemprop="name">Teruel</span></a></li></ul></li><li class="deportes no-expandable"><a href="https://www.#/deportes/" itemprop="url"><span itemprop="name">Deportes</span></a></li><li class="deportes-futbol-real-zaragoza no-expandable"><a href="https://www.#/deportes/futbol/real-zaragoza/" itemprop="url"><span itemprop="name">Real Zaragoza</span></a></li><li class="deportes-futbol-sd-huesca no-expandable"><a href="https://www.#/deportes/futbol/sd-huesca/" itemprop="url"><span itemprop="name">SD Huesca</span></a></li><li class="deportes-baloncesto no-expandable"><a href="https://www.#/deportes/baloncesto/" itemprop="url"><span itemprop="name">Baloncesto</span></a></li><li class="nacional no-expandable"><a href="https://www.#/nacional/" itemprop="url"><span itemprop="name">Nacional</span></a></li><li class="internacional no-expandable"><a href="https://www.#/internacional/" itemprop="url"><span itemprop="name">Internacional</span></a></li><li class="economia no-expandable"><a href="https://www.#/economia/" itemprop="url"><span itemprop="name">Econom&iacute;a</span></a></li><li class="ocio-y-cultura no-expandable"><a href="https://www.#/ocio-y-cultura/" itemprop="url"><span itemprop="name">Cultura</span></a></li><li class="link external no-expandable"><a href="https://www.#/ocio/" target="_blank" itemprop="url"><span itemprop="name">Ocio</span></a></li><li class="comunicacion no-expandable"><a href="https://www.#/comunicacion/" itemprop="url"><span itemprop="name">Comunicaci&oacute;n</span></a></li><li class="sociedad no-expandable"><a href="https://www.#/sociedad/" itemprop="url"><span itemprop="name">Sociedad</span></a></li><li class="opinion no-expandable"><a href="https://www.#/opinion/" itemprop="url"><span itemprop="name">Opini&oacute;n</span></a></li><li class="gastronomia no-expandable"><a href="https://www.#/gastronomia/" itemprop="url"><span itemprop="name">Gastronom&iacute;a</span></a></li><li class="salud no-expandable"><a href="https://www.#/salud/" itemprop="url"><span itemprop="name">Salud</span></a></li><li class="deportes-aficion no-expandable"><a href="https://www.#/deportes/aficion/" itemprop="url"><span itemprop="name">Afici&oacute;n</span></a></li><li class="link external no_follow no-expandable"><a href="https://www.#/tags/temas/heraldo_del_campo.html" target="_blank" rel="nofollow" itemprop="url"><span itemprop="name">Heraldo del campo</span></a></li><li class="link external no_follow no-expandable"><a href="https://www.#/multimedia/videos/" target="_blank" rel="nofollow" itemprop="url"><span itemprop="name">Heraldo TV</span></a></li><li class="link external no_follow no-expandable"><a href="https://tienda.#/?utm_source=#&amp;utm_medium=hamburger&amp;utm_campaign=general" target="_blank" rel="nofollow" itemprop="url"><span itemprop="name">Heraldoteca</span></a></li><li class="link no-expandable"><a href="https://guia.#/" itemprop="url"><span itemprop="name">Gu&iacute;a Local</span></a></li><li class="link no-expandable"><a href="https://www.#/tags/temas/educacion.html" itemprop="url"><span itemprop="name">Educaci&oacute;n</span></a></li><li class="link no-expandable"><a href="https://www.#/tags/temas/heraldo_escolar.html" itemprop="url"><span itemprop="name">Heraldo Escolar</span></a></li><li class="link no-expandable last"><a href="https://www.#/newsletters/" itemprop="url"><span itemprop="name">Newsletters</span></a></li></ul></div><div class="latest-articles-hamburger-menu"><div id="latestArticlesInMenu"></div><script>
+    var latestArticlesInMenu = [
+                                                                {
+                "title":"Aragón",
+                "slug":"aragon",
+                "data":[
+                                        {"title":"El fiscal del caso Gali apoya a las acusaciones en sus acciones","slug":"/noticias/aragon/2021/10/21/fiscal-caso-gali-apoyo-acsuaciones-1527965.html","class":"aragon"}                                        , {"title":"Una clínica de Zaragoza pide tres años de cárcel al joven que simuló ser enfermero","slug":"/noticias/aragon/2021/10/21/enfermero-falso-clinica-montpellier-1527939.html","class":"aragon"}                                        , {"title":"Interrumpido el servicio del Tranvía de Zaragoza tras chocar un convoy con un coche en Valle de Broto","slug":"/noticias/aragon/zaragoza/2021/10/20/interrumpido-servicio-tranvia-chocar-convoy-con-coche-valle-broto-1527978.html","class":"aragon"}                                        , {"title":"Zaragoza reactiva sus pactos con la DGA pero no habrá acuerdo con los antiguos juzgados","slug":"/noticias/aragon/zaragoza/2021/10/20/zaragoza-reactiva-sus-pactos-con-la-dga-pero-no-habra-acuerdo-con-los-antiguos-juzgados-1527977.html","class":"aragon"}                                        , {"title":"La Abogacía insiste en que no puede entregar los correos de Exteriores sobre el &#039;caso Gali&#039; por el secreto oficial","slug":"/noticias/aragon/2021/10/20/abogacia-insiste-no-puede-entregar-correos-exteriores-sobre-caso-ghali-secreto-oficial-1527948.html","class":"aragon"}                                        , {"title":"Acusan al gobierno de Zaragoza de trato de favor a la empresa de patinetes Bird","slug":"/noticias/aragon/zaragoza/2021/10/20/acusan-al-ayuntamiento-de-zaragoza-de-trato-de-favor-a-los-patinetes-bird-1527951.html","class":"aragon"}                                        , {"title":"La airada protesta de los Bomberos de Huesca obliga a suspender el pleno municipal","slug":"/noticias/aragon/huesca/2021/10/20/los-bomberos-de-huesca-denuncian-con-una-pitada-el-deterioro-del-servicio-1527935.html","class":"aragon"}                                    ]
+            }                                                                    ,            {
+                "title":"Deportes",
+                "slug":"deportes",
+                "data":[
+                                        {"title":"Real Valladolid e Ibiza empatan","slug":"/multimedia/videos/deportes/futbol/real-valladolid-e-ibiza-empatan/","class":"deportes"}                                        , {"title":"Piqué mantiene vivo al Barça en la Champions","slug":"/noticias/deportes/futbol/2021/10/20/pique-mantiene-vivo-barca-champions-1527967.html","class":"deportes"}                                        , {"title":"Nacho Ambriz encuentra la fórmula para su Huesca","slug":"/noticias/deportes/futbol/sd-huesca/2021/10/20/nacho-ambriz-encuentra-la-formula-ideal-para-su-huesca-1527926.html","class":"deportes"}                                        , {"title":"Hapoel Gilboa - Casademont Zaragoza","slug":"/multimedia/imagenes/deportes/galeria-hapoel-gilboa-casademont-zaragoza/","class":"deportes"}                                        , {"title":"Joaquín, extremo de la SD Huesca, sufre una rotura de fibras en la pierna izquierda","slug":"/noticias/deportes/futbol/sd-huesca/2021/10/20/joaquin-extremo-de-la-sd-huesca-sufre-una-rotura-de-fibras-en-la-pierna-izquierda-1527916.html","class":"deportes"}                                        , {"title":"Jaca acogerá el Campeonato de España de patinaje artístico","slug":"/noticias/deportes/2021/10/20/jaca-acogera-el-campeonato-de-espana-de-patinaje-artistico-1527893.html","class":"deportes"}                                        , {"title":"Un poco de fe y talento bastan en Israel","slug":"/noticias/deportes/baloncesto/2021/10/20/poco-fe-talento-bastan-israel-1527877.html","class":"deportes"}                                    ]
+            }                                                                    ,            {
+                "title":"Real Zaragoza",
+                "slug":"deportes-futbol-real-zaragoza",
+                "data":[
+                                        {"title":"Jim recupera a Nano Mesa, Francés y Yanis","slug":"/noticias/deportes/futbol/real-zaragoza/2021/10/20/jim-recupera-a-nano-mesa-frances-y-yanis-1527861.html","class":"deportes-futbol-real-zaragoza"}                                        , {"title":"César Yanis: &quot;El equipo está jugando bien, solo falta el gol&quot;","slug":"/noticias/deportes/futbol/real-zaragoza/2021/10/20/yanis-real-zaragoza-equipo-juega-bien-falta-gol-1527821.html","class":"deportes-futbol-real-zaragoza"}                                        , {"title":"Piqué sueña con volver a La Romareda","slug":"/noticias/deportes/futbol/real-zaragoza/2021/10/20/pique-suena-con-volver-a-la-romareda-1527800.html","class":"deportes-futbol-real-zaragoza"}                                        , {"title":"Jim: &quot;Que nadie espere un partido fácil el jueves&quot;","slug":"/noticias/deportes/futbol/real-zaragoza/2021/10/19/jim-que-nadie-espere-un-partido-facil-el-jueves-1527547.html","class":"deportes-futbol-real-zaragoza"}                                        , {"title":"Yuri, el brasileño que tiene las llaves de Ponferrada y sigue goleando a los 39 años","slug":"/noticias/deportes/futbol/real-zaragoza/2021/10/19/yuri-el-brasileno-que-tiene-las-llaves-de-ponferrada-y-sigue-goleando-con-39-anos-1527534.html","class":"deportes-futbol-real-zaragoza"}                                        , {"title":"El salto adelante de Jair Amador","slug":"/noticias/deportes/futbol/real-zaragoza/2021/10/18/el-salto-adelante-de-jair-amador-1527280.html","class":"deportes-futbol-real-zaragoza"}                                        , {"title":"Podcast| Tertulia tras el partido del Málaga - Real Zaragoza","slug":"/multimedia/videos/deportes/futbol/real-zaragoza/podcast-tertulia-tras-el-partido-del-malaga-real-zaragoza/","class":"deportes-futbol-real-zaragoza"}                                    ]
+            }                                                                    ,            {
+                "title":"SD Huesca",
+                "slug":"deportes-futbol-sd-huesca",
+                "data":[
+                                        {"title":"Nacho Ambriz encuentra la fórmula para su Huesca","slug":"/noticias/deportes/futbol/sd-huesca/2021/10/20/nacho-ambriz-encuentra-la-formula-ideal-para-su-huesca-1527926.html","class":"deportes-futbol-sd-huesca"}                                        , {"title":"Joaquín, extremo de la SD Huesca, sufre una rotura de fibras en la pierna izquierda","slug":"/noticias/deportes/futbol/sd-huesca/2021/10/20/joaquin-extremo-de-la-sd-huesca-sufre-una-rotura-de-fibras-en-la-pierna-izquierda-1527916.html","class":"deportes-futbol-sd-huesca"}                                        , {"title":"Buenas señales de Pulido y paso adelante de Insua en la SD Huesca","slug":"/noticias/deportes/futbol/sd-huesca/2021/10/20/buenas-senales-de-pulido-y-paso-adelante-de-insua-en-la-sd-huesca-1527811.html","class":"deportes-futbol-sd-huesca"}                                        , {"title":"Andrés: “El empate ha sido una pena porque queríamos darle una victoria a la afición”","slug":"/noticias/deportes/futbol/sd-huesca/2021/10/19/andres-el-empate-ha-sido-una-pena-porque-queria-porque-queriamos-darle-una-victoria-a-la-aficion-1527708.html","class":"deportes-futbol-sd-huesca"}                                        , {"title":"El uno a uno del empate de la SD Huesca con el Málaga en El Alcoraz (0-0)","slug":"/noticias/deportes/futbol/sd-huesca/2021/10/19/uno-uno-empate-sd-huesca-malaga-alcoraz-1527702.html","class":"deportes-futbol-sd-huesca"}                                        , {"title":"Nacho Ambriz: &quot;Hay que sumar más puntos en casa para estar arriba&quot;","slug":"/noticias/deportes/futbol/sd-huesca/2021/10/19/nacho-ambriz-sumar-mas-casa-sd-huesca-1527698.html","class":"deportes-futbol-sd-huesca"}                                        , {"title":"Partido SD Huesca - Málaga","slug":"/multimedia/imagenes/deportes/futbol/sd-huesca/fotos-partido-huesca-malaga/","class":"deportes-futbol-sd-huesca"}                                    ]
+            }                                                                    ,            {
+                "title":"Baloncesto",
+                "slug":"deportes-baloncesto",
+                "data":[
+                                        {"title":"Un poco de fe y talento bastan en Israel","slug":"/noticias/deportes/baloncesto/2021/10/20/poco-fe-talento-bastan-israel-1527877.html","class":"deportes-baloncesto"}                                        , {"title":"Podcast Heraldo: Carlos Alocén, presente y futuro del baloncesto español","slug":"/multimedia/videos/deportes/baloncesto/podcast-heraldo-carlos-alocen-presente-y-futuro-del-baloncesto-espanol/","class":"deportes-baloncesto"}                                        , {"title":"Tierra Santa, lugar para volver a creer","slug":"/noticias/deportes/baloncesto/2021/10/20/partido-casademont-zaragoza-hapoel-gilboa-1527666.html","class":"deportes-baloncesto"}                                        , {"title":"Ponsarnau: “Nuestro error más grave ha sido bajar los brazos por frustración”","slug":"/noticias/deportes/baloncesto/2021/10/18/ponsarnau-nuestro-error-mas-grave-ha-sido-bajar-los-brazos-por-frustracion-1527329.html","class":"deportes-baloncesto"}                                        , {"title":"Casademont Zaragoza: dos partidos para reaccionar","slug":"/noticias/deportes/baloncesto/2021/10/18/casademont-zaragoza-dos-partidos-para-reaccionar-1527063.html","class":"deportes-baloncesto"}                                        , {"title":"La reivindicación del baloncesto femenino","slug":"/noticias/deportes/baloncesto/2021/10/17/la-reivindicacion-del-baloncesto-femenino-1527106.html","class":"deportes-baloncesto"}                                        , {"title":"El Levitec Huesca La Magia se queda en Cáceres otra vez con la miel en los labios","slug":"/noticias/deportes/baloncesto/2021/10/17/el-levitec-huesca-la-magia-se-queda-en-caceres-otra-vez-con-la-miel-en-los-labios-1527033.html","class":"deportes-baloncesto"}                                    ]
+            }                                                                    ,            {
+                "title":"Nacional",
+                "slug":"nacional",
+                "data":[
+                                        {"title":"Otegi afirma ahora que EH Bildu no condiciona su respaldo a los Presupuestos a las excarcelaciones de etarras","slug":"/noticias/nacional/2021/10/21/otegi-afirma-ahora-que-eh-bildu-no-condiciona-su-respaldo-a-los-presupuestos-a-las-excarcelaciones-de-etarras-1527988.html","class":"nacional"}                                        , {"title":"La lava atraviesa La Laguna y amenaza con causar más estragos","slug":"/noticias/nacional/2021/10/20/lava-atraviesa-laguna-amenaza-causar-mas-estragos-1527976.html","class":"nacional"}                                        , {"title":"Villarejo reitera que se mensajeaba con Rajoy, al que cree recordar que vio en Génova en una reunión con Cospedal","slug":"/noticias/nacional/2021/10/20/villarejo-reitera-se-mensajeaba-rajoy-cree-recordar-vio-genova-reunion-cospedal-1527964.html","class":"nacional"}                                        , {"title":"Robles al Congreso: &quot;Defensa no tenía competencia en escala del vuelo de Gali&quot;","slug":"/noticias/nacional/2021/10/20/robles-congreso-defensa-no-tenia-competencia-escala-vuelo-gali-1527960.html","class":"nacional"}                                        , {"title":"Resultados sorteo de Bonoloto y ONCE del miércoles 20 de octubre","slug":"/noticias/nacional/2021/10/20/resultados-sorteo-bonoloto-once-miercoles-20octubre-1513806.html","class":"nacional"}                                        , {"title":"Efectivos de la UME ayudan a retirar enseres de las casas amenazadas por la lava del volcán de La Palma","slug":"/multimedia/imagenes/nacional/trabajos-ume-para-ayudar-vecinos-la-palma-por-erupcion-volcan/","class":"nacional"}                                        , {"title":"Los Reyes entregarán al Maestra Clara Torres de Tui el Premio Escuela del Año 2020","slug":"/noticias/nacional/2021/10/20/lreyes-entregaran-maestra-clara-torres-tui-premio-escuela-1527921.html","class":"nacional"}                                    ]
+            }                                                                    ,            {
+                "title":"Internacional",
+                "slug":"internacional",
+                "data":[
+                                        {"title":"El dolor irreparable de la madre de un español asesinado en el Bataclan","slug":"/noticias/internacional/2021/10/20/dolor-irreparable-madre-espanol-asesinado-bataclan-1527973.html","class":"internacional"}                                        , {"title":"La Audiencia acuerda hacer efectiva la entrega a EE. UU. del Pollo Carvajal","slug":"/noticias/internacional/2021/10/20/audiencia-acuerda-hacer-efectiva-entrega-pollo-carvajal-1527862.html","class":"internacional"}                                        , {"title":"Putin da una semana de vacaciones a los rusos para frenar la pandemia","slug":"/noticias/internacional/2021/10/20/putin-da-semana-vacaciones-rusos-para-frenar-pandemia-1527860.html","class":"internacional"}                                        , {"title":"Curiosas imágenes de un niño que quería el gorro del Papa","slug":"/multimedia/imagenes/internacional/curiosas-imagenes-de-un-nino-que-queria-el-gorro-del-papa/","class":"internacional"}                                        , {"title":"Navalni, premio Sájarov del Parlamento Europeo a la libertad de conciencia","slug":"/noticias/internacional/2021/10/20/navalni-premio-sajarov-del-parlamento-europeo-a-la-libertad-de-conciencia-1527850.html","class":"internacional"}                                        , {"title":"Al menos 13 muertos por dos bombas contra un autobús militar en Damasco","slug":"/multimedia/videos/internacional/al-menos-13-muertos-por-dos-bombas-contra-un-autobus-militar-en-damasco/","class":"internacional"}                                        , {"title":"Isabel II acepta &quot;con reticencia&quot; suspender el viaje a Irlanda del Norte y descansará por consejo médico","slug":"/noticias/internacional/2021/10/20/isabel-ii-acepta-con-reticencia-suspender-viaje-irlanda-norte--1527816.html","class":"internacional"}                                    ]
+            }                                                                    ,            {
+                "title":"Economía",
+                "slug":"economia",
+                "data":[
+                                        {"title":"&#039;El juego del calamar&#039; también crea tendencia en el sector funerario con sus ataúdes","slug":"/noticias/economia/2021/10/20/juego-calamar-tambien-crea-tendencia-sector-funerario-ataudes-1527930.html","class":"economia"}                                        , {"title":"&quot;No habrá problemas de suministro de alimentos y bebidas en Navidad&quot;","slug":"/noticias/economia/2021/10/20/no-habra-problemas-de-suministro-de-alimentos-y-bebidas-en-navidad-1527910.html","class":"economia"}                                        , {"title":"La OCU advierte de que la subida de la energía supondrá un sobrecoste al año para las familias de 854 euros","slug":"/noticias/economia/2021/10/20/locu-advierte-subida-energia-supondra-sobrecoste-ano-familias-euros-1527879.html","class":"economia"}                                        , {"title":"El cambio de hora en octubre: poco ahorro energético con la actual subida de precios de la luz","slug":"/noticias/economia/2021/10/20/cambio-de-hora-en-octubre-poco-ahorro-energetico-con-la-actual-subida-de-precios-de-la-luz-1527540.html","class":"economia"}                                        , {"title":"EH Bildu apoyará prórroga de suspensión de desahucios y corte de suministros","slug":"/noticias/economia/2021/10/19/eh-bildu-apoyara-prorroga-suspension-desahucios-corte-suministros-1527686.html","class":"economia"}                                        , {"title":"El sector del automóvil hace caer un 5,8% las exportaciones aragonesas en agosto","slug":"/noticias/economia/2021/10/19/sector-automovil-hace-caer-exportaciones-aragonesas-agosto-1527648.html","class":"economia"}                                        , {"title":"Las grandes eléctricas retan al Gobierno al no acudir a la subasta de energía renovable","slug":"/noticias/economia/2021/10/19/las-grandes-electricas-retan-al-gobierno-al-no-acudir-a-la-subasta-de-energia-renovable-1527644.html","class":"economia"}                                    ]
+            }                                                                    ,            {
+                "title":"Ocio y Cultura",
+                "slug":"ocio-y-cultura",
+                "data":[
+                                        {"title":"Auster y la sombra de Crane","slug":"/noticias/ocio-y-cultura/2021/10/21/auster-y-la-sombra-de-crane-1527987.html","class":"ocio-y-cultura"}                                        , {"title":"Plensa conquista Nueva York pidiendo silencio en un momento de ruido","slug":"/noticias/ocio-y-cultura/2021/10/20/plensa-conquista-nueva-york-pidiendo-silencio-momento-ruido-1527938.html","class":"ocio-y-cultura"}                                        , {"title":"HERALDO celebra la gala &#039;Aragón, mucho que decir&#039; con música, magia y humor","slug":"/noticias/ocio-y-cultura/2021/10/20/amaral-raul-perez-jorge-blass-b-vocal-1527924.html","class":"ocio-y-cultura"}                                        , {"title":"El &#039;Guernica&#039; de Picasso en chocolate a tamaño original se expondrá en el Salón del chocolate de París","slug":"/noticias/ocio-y-cultura/2021/10/20/el-guernica-de-picasso-en-chocolate-a-tamano-original-se-expondra-en-el-salon-del-chocolate-de-paris-1527920.html","class":"ocio-y-cultura"}                                        , {"title":"Atención, se busca: ¿Tienes pareja y quieres participar con ella en una película?","slug":"/noticias/ocio-y-cultura/2021/10/20/atencion-se-busca-tienes-pareja-y-quieres-participar-con-ella-en-una-pelicula-1527883.html","class":"ocio-y-cultura"}                                        , {"title":"Ute Lemper: una voz cálida y efusiva","slug":"/noticias/ocio-y-cultura/2021/10/20/ute-lemper-zaragoza-1527873.html","class":"ocio-y-cultura"}                                        , {"title":"Dyad, un aspirador en seco y húmedo que resuelve varias necesidades de limpieza","slug":"/noticias/ocio-y-cultura/2021/10/20/dyad-un-aspirador-en-seco-y-humedo-que-resuelve-varias-necesidades-de-limpieza-1527713.html","class":"ocio-y-cultura"}                                    ]
+            }                                                                    ,            {
+                "title":"Comunicación",
+                "slug":"comunicacion",
+                "data":[
+                                        {"title":"Iñaki Gabilondo, Roberto Leal, Álvaro Morte o Aitana entre los galardonados con los Premios Ondas 2021","slug":"/noticias/comunicacion/2021/10/20/ganadores-premios-ondas-2021-1527895.html","class":"comunicacion"}                                        , {"title":"Que no se te escape lo bueno: recibe cada jueves nuestra newsletter &#039;Planes de finde&#039; y disfruta del tuyo como mereces","slug":"/noticias/comunicacion/2021/10/20/que-no-se-te-escape-lo-bueno-recibe-cada-jueves-nuestra-newsletter-planes-de-finde-y-disfruta-del-tuyo-como-mereces-1527587.html","class":"comunicacion"}                                        , {"title":"&#039;Operación Triunfo&#039; celebra su 20 aniversario con un maratón con concursantes de todas las ediciones","slug":"/noticias/comunicacion/2021/10/20/operacion-triunfo-celebra-su-20-aniversario-con-un-maraton-con-concursantes-de-todas-las-ediciones-1527770.html","class":"comunicacion"}                                        , {"title":"Todo &quot;lo ciber&quot; no equivale a &quot;todo riesgos&quot;","slug":"/noticias/comunicacion/2021/10/20/todo-lo-ciber-no-equivale-a-todo-riesgos-1527767.html","class":"comunicacion"}                                        , {"title":"Heraldo destinará el 20% de las nuevas suscripciones anuales a la Asociación Española contra el cáncer","slug":"/noticias/comunicacion/2021/10/19/hoy-el-20-de-tu-suscripcion-digital-anual-se-destina-a-la-investigacion-sobre-el-cancer-de-mama-1527292.html","class":"comunicacion"}                                        , {"title":"El aragonés Miki Nadal y Terelu Campos, doble expulsión en Masterchef Celebrity","slug":"/noticias/comunicacion/2021/10/19/miki-nadal-terelu-campos-doble-expulsion-masterchef-1527414.html","class":"comunicacion"}                                        , {"title":"David Moreno: &quot;Ojalá los adultos no perdiésemos a nuestro niño interior&quot;","slug":"/noticias/comunicacion/2021/10/18/david-moreno-ojala-los-adultos-no-perdiesemos-a-nuestro-nino-interior-1527123.html","class":"comunicacion"}                                    ]
+            }                                                                    ,            {
+                "title":"Sociedad",
+                "slug":"sociedad",
+                "data":[
+                                        {"title":"Consulta el horóscopo de hoy: jueves, 21 de octubre de 2021","slug":"/noticias/sociedad/2021/10/21/horoscopo-diario-hoy-jueves-21octubre-2021-1523949.html","class":"sociedad"}                                        , {"title":"3.000 cerditos de papel consiguen que España gane un nuevo récord Guiness","slug":"/noticias/sociedad/2021/10/20/3-000-cerditos-de-papel-consiguen-que-espana-gane-un-nuevo-record-guiness-1527904.html","class":"sociedad"}                                        , {"title":"La importancia de la educación emocional y la ecología del aprendizaje, entre los nuevos retos de &#039;Educar para el futuro&#039;","slug":"/noticias/sociedad/2021/10/20/la-importancia-de-la-educacion-emocional-y-la-ecologia-del-aprendizaje-entre-los-nuevos-retos-de-educar-para-el-futuro-1527857.html","class":"sociedad"}                                        , {"title":"Miki Nadal da su versión sobre su expulsión de Masterchef y opina de Samantha Vallejo-Nágera","slug":"/noticias/sociedad/2021/10/20/miki-nadal-da-su-version-sobre-su-expulsion-de-masterchef-y-opina-de-samantha-vallejo-nagera-1527822.html","class":"sociedad"}                                        , {"title":"¿Facebook planea cambiar de nombre?","slug":"/noticias/sociedad/2021/10/20/facebook-planea-cambiar-de-nombre-1527747.html","class":"sociedad"}                                        , {"title":"Antonio David y Olga Moreno se separan, según &#039;Lecturas&#039;","slug":"/noticias/sociedad/2021/10/20/antonio-david-olga-moreno-separan-revista-lecturas-1527727.html","class":"sociedad"}                                        , {"title":"Romántica pedida de mano de Travis Barker a Kourtney Kardashian","slug":"/noticias/sociedad/2021/10/20/romantica-pedida-mano-travis-baker-kourtney-kardashian-1527720.html","class":"sociedad"}                                    ]
+            }                                                                    ,            {
+                "title":"Opinión",
+                "slug":"opinion",
+                "data":[
+                                        {"title":"Avance en la desescalada","slug":"/noticias/opinion/2021/10/20/avance-en-la-desescalada-1527655.html","class":"opinion"}                                        , {"title":"Lo que dijo y lo que no dijo Otegi","slug":"/noticias/opinion/2021/10/20/lo-que-dijo-y-lo-que-no-dijo-otegi-encarna-samitier-pagina-2-1527641.html","class":"opinion"}                                        , {"title":"Presupuestos del bienestar","slug":"/noticias/opinion/2021/10/20/presupuestos-del-bienestar-pilar-de-la-vega-la-firma-1527628.html","class":"opinion"}                                        , {"title":"La gente","slug":"/noticias/opinion/2021/10/20/la-gente-sergio-royo-en-nombre-propio-1527615.html","class":"opinion"}                                        , {"title":"Maixabel","slug":"/noticias/opinion/2021/10/20/maixabel-jose-luis-melero-la-rotonda-1527610.html","class":"opinion"}                                        , {"title":"Cartas al director de HERALDO: Por la reapertura de la vía Calatayud-Caminreal","slug":"/noticias/opinion/2021/10/20/cartas-al-director-de-heraldo-reapertura-via-calatayud-caminreal-20octubre-2021-1527496.html","class":"opinion"}                                        , {"title":"Inflación en el supermercado","slug":"/noticias/opinion/2021/10/19/inflacion-en-el-supermercado-1527373.html","class":"opinion"}                                    ]
+            }                                                                    ,            {
+                "title":"Gastronomía",
+                "slug":"gastronomia",
+                "data":[
+                                        {"title":"Una hamburguesa de La Bistroteca en homenaje a La Palma, la mejor de España","slug":"/noticias/gastronomia/2021/10/20/hamburguesa-bistroteca-homenaje-palma-mejor-espana-1527971.html","class":"gastronomia"}                                        , {"title":"Torreznos con chocolate y latas para vinos, sangrías y hasta tartas de queso sin refrigerar","slug":"/noticias/gastronomia/2021/10/20/torreznos-con-chocolate-y-latas-para-vinos-sangrias-y-hasta-tartas-de-queso-sin-refrigerar-1527888.html","class":"gastronomia"}                                        , {"title":"Tres bodegas de Calatayud logran seis medallas en los premios Zarzillo 2021","slug":"/noticias/gastronomia/2021/10/20/tres-bodegas-de-calatayud-logran-seis-medallas-en-los-premios-zarzillo-2021-1527874.html","class":"gastronomia"}                                        , {"title":"El sector gastro se viste de rosa y apoya la investigación contra el cáncer de mama","slug":"/noticias/gastronomia/2021/10/19/el-sector-gastro-se-viste-de-rosa-y-apoya-la-investigacion-del-cancer-de-mama-1527350.html","class":"gastronomia"}                                        , {"title":"El jefe de pastelería del Tatau de Huesca, a la final del mejor postre de restaurante de España","slug":"/noticias/gastronomia/2021/10/19/el-jefe-de-pasteleria-del-tatau-de-huesca-a-la-final-del-mejor-postre-de-restaurante-de-espana-1527340.html","class":"gastronomia"}                                        , {"title":"Los Roca recuperan alimentos perdidos para &quot;Sembrar el futuro&quot;","slug":"/noticias/gastronomia/2021/10/18/los-roca-recuperan-alimentos-perdidos-sembrar-el-futuro-1527201.html","class":"gastronomia"}                                        , {"title":"El acerolo o zerolla, una fruta olvidada","slug":"/noticias/gastronomia/2021/10/16/el-acerolo-o-zerolla-una-fruta-olvidada-1526731.html","class":"gastronomia"}                                    ]
+            }                                                                    ,            {
+                "title":"Salud",
+                "slug":"salud",
+                "data":[
+                                        {"title":"Vuelve a subir la incidencia hasta 43,1 puntos con repunte en 12 comunidades","slug":"/noticias/salud/2021/10/20/vuelve-subir-incidencia-hasta-puntos-repunte-comunidades-1527936.html","class":"salud"}                                        , {"title":"La ministra de Educación no quiere &quot;pasos atrás&quot; en la lucha contra la covid","slug":"/noticias/salud/2021/10/20/ministra-educacion-no-quiere-pasos-atras-lucha-contra-covid-1527905.html","class":"salud"}                                        , {"title":"Un grupo de investigadores diseña anticuerpos que destruyen células viejas y frenan el envejecimiento","slug":"/noticias/salud/2021/10/20/disenan-anticuerpos-que-destruyen-celulas-viejas-y-frenan-el-envejecimiento-1527809.html","class":"salud"}                                        , {"title":"Identifican mutaciones vinculadas al desarrollo de tumores en la sangre","slug":"/noticias/salud/2021/10/20/identifican-mutaciones-vinculadas-al-desarrollo-de-tumores-en-la-sangre-1527797.html","class":"salud"}                                        , {"title":"Ansiedad y alimentación: ¿cómo se relacionan entre sí?","slug":"/noticias/salud/2021/10/20/ansiedad-y-alimentacion-como-se-relacionan-entre-si-1527440.html","class":"salud"}                                        , {"title":"Seis conductas aberrantes que deben alertar de una adicción","slug":"/noticias/salud/2021/10/20/seis-conductas-aberrantes-que-deben-alertar-de-una-adiccion-1527476.html","class":"salud"}                                        , {"title":"Detectan una descendiente de la variante delta que podría ser más contagiosa","slug":"/noticias/salud/2021/10/19/detectan-descendiente-variante-delta-podria-ser-mas-contagiosa-1527604.html","class":"salud"}                                    ]
+            }                                                                    ,            {
+                "title":"Afición",
+                "slug":"deportes-aficion",
+                "data":[
+                                        {"title":"El Santa Anastasia rescata un punto en el descuento","slug":"/noticias/deportes/aficion/2021/10/17/el-santa-anastasia-rescata-un-punto-en-el-descuento-1527100.html","class":"deportes-aficion"}                                        , {"title":"El Fraga prolonga su buen estado de forma con una contuendente colegada al Peñas","slug":"/noticias/deportes/aficion/2021/10/17/el-fraga-prolonga-su-buen-estado-de-forma-con-una-contuendente-colegada-al-penas-1527082.html","class":"deportes-aficion"}                                        , {"title":"El Olivar y el Ejea firman el empate tras un intenso choque","slug":"/noticias/deportes/aficion/2021/10/17/el-olivar-y-el-ejea-firman-un-empate-tras-un-intenso-choque-1527089.html","class":"deportes-aficion"}                                        , {"title":"Calatayud y La Almunia empatan en un intenso encuentro","slug":"/noticias/deportes/aficion/2021/10/17/calatayud-y-la-almunia-empatan-en-un-intenso-encuentro-1527091.html","class":"deportes-aficion"}                                        , {"title":"El Unión vence al Teruel a pesar de jugar en inferioridad gran parte del partido","slug":"/noticias/deportes/aficion/2021/10/17/el-union-vence-al-teruel-a-pesar-de-jugar-en-inferioridad-gran-parte-del-partido-1527086.html","class":"deportes-aficion"}                                        , {"title":"El San José tumba al Santa Isabel con comodidad","slug":"/noticias/deportes/aficion/2021/10/17/el-san-jose-tumba-al-santa-isabel-con-comodidad-1527083.html","class":"deportes-aficion"}                                        , {"title":"Delirio en Brea tras la victoria ante el Numancia","slug":"/noticias/deportes/aficion/2021/10/17/delirio-en-brea-tras-la-victoria-ante-el-numancia-1527067.html","class":"deportes-aficion"}                                    ]
+            }                        ];
+    var numLatestArticlesInMenu = 15;
+
+    function renderLatestArticlesInMenu(){
+        var html = '';
+        if(numLatestArticlesInMenu>0) {
+            latestArticlesInMenu.forEach(function (category) {
+                var elements = category.data;
+                html += '<div class="hamburger-latest-articles ' + category.slug + '-hamburger-latest-articles">';
+                html += '   <strong class="box-title">' + category.title + '</strong>';
+                html += '   <ul>';
+                elements.forEach(function (item) {
+                    html += '       <li><a href="https://www.#/newsletters/cocina/'+&#32;item.slug&#32;+&#32;'" title="'+ item.title + '">'+ item.title + '</a></li>';
+                });
+                html += '   </ul>';
+                html += '</div>';
+            });
+
+        }
+        return html;
+    }
+
+    $( document ).ready(function() {
+        $('#latestArticlesInMenu').parent().html( renderLatestArticlesInMenu() );
+    });
+</script></div><div class="latest-global-articles-hamburger-menu"><div id="latestGlobalArticlesInMenu"></div><script>
+    var latestGlobalArticlesInMenu = [
+                        {"title":"El fiscal del caso Gali apoya a las acusaciones en sus acciones","slug":"/noticias/aragon/2021/10/21/fiscal-caso-gali-apoyo-acsuaciones-1527965.html"}                , {"title":"Una clínica de Zaragoza pide tres años de cárcel al joven que simuló ser enfermero","slug":"/noticias/aragon/2021/10/21/enfermero-falso-clinica-montpellier-1527939.html"}                , {"title":"Otegi afirma ahora que EH Bildu no condiciona su respaldo a los Presupuestos a las excarcelaciones de etarras","slug":"/noticias/nacional/2021/10/21/otegi-afirma-ahora-que-eh-bildu-no-condiciona-su-respaldo-a-los-presupuestos-a-las-excarcelaciones-de-etarras-1527988.html"}                , {"title":"Zaragoza, sede del ‘VI Encuentro de Ciudades 2030’ que organiza la DGT","slug":"/branded/zaragoza-sede-del-vi-encuentro-de-ciudades-2030-que-organiza-la-dgt/"}                , {"title":"¿Qué son los caninos incluidos y cómo se tratan? Policlínicas Nacar responde","slug":"/branded/que-son-los-caninos-incluidos-y-como-se-tratan-policlinicas-nacar-responde/"}                , {"title":"Las empanadas argentinas artesanales se expanden por Zaragoza","slug":"/branded/malvon-las-empanadas-argentinas-artesanales-se-expanden-por-zaragoza/"}                , {"title":"Auster y la sombra de Crane","slug":"/noticias/ocio-y-cultura/2021/10/21/auster-y-la-sombra-de-crane-1527987.html"}            ];    var numLatestGlobalArticlesInMenu = 7;
+
+    function renderLatestGlobalArticlesInMenu(){
+        var html = '';
+        if(numLatestGlobalArticlesInMenu>0){
+            html += '<div class="hamburger-global-latest-articles">';
+            html += '   <strong class="box-title">Últimas noticias</strong>';
+            html += '   <ul>';
+            latestGlobalArticlesInMenu.forEach(function(item){
+                html += '       <li><a href="https://www.#/newsletters/cocina/'+&#32;item.slug&#32;+&#32;'" title="'+ item.title + '">'+ item.title + '</a></li>';
+            });
+            html += '   </ul>';
+            html += '</div>';
+        }
+        return html;
+    }
+
+    $( document ).ready(function() {
+        $('#latestGlobalArticlesInMenu').parent().html( renderLatestGlobalArticlesInMenu() );
+    });
+</script></div></div></div></div><a href="index.html#" class="header-page-title">Cocina</a><div class="search-box-form"><form method="GET" action="https://www.#/buscar" name="search_form" onsubmit="onSearchSubmit(this);"><input class="search-input" type="text" name="q" placeholder="¿Qué estás buscando?" autocomplete="off"><span class=" close-icon"><i class="far fa-times"></i></span></form></div><svg class="fa fa-search fa-w-16 mobile-search-icon boxicon" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg><a href="https://www.#/" class="header-logo-right"></a><a href="https://www.#/paginas-libres/" class="header-category-title">Páginas libres</a><div class="social-share" data-url="https://www.#"><a href="index.html#" class="facebook"><span class="fab fa-facebook-f sharrre"></span></a><a href="index.html#" class="twitter"><span class="fab fa-twitter sharrre"></span></a><a href="index.html#" class="whatsapp whatsapp-desktop"><span class="fab fa-whatsapp"></span></a></div><div class="header-mobile-icons"><div class="userbox"><svg class="fa-user-circle" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M1523 1339q-22-155-87.5-257.5t-184.5-118.5q-67 74-159.5 115.5t-195.5 41.5-195.5-41.5-159.5-115.5q-119 16-184.5 118.5t-87.5 257.5q106 150 271 237.5t356 87.5 356-87.5 271-237.5zm-243-699q0-159-112.5-271.5t-271.5-112.5-271.5 112.5-112.5 271.5 112.5 271.5 271.5 112.5 271.5-112.5 112.5-271.5zm512 256q0 182-71 347.5t-190.5 286-285.5 191.5-349 71q-182 0-348-71t-286-191-191-286-71-348 71-348 191-286 286-191 348-71 348 71 286 191 191 286 71 348z"/></svg><span class='userlogged'></span></div><div class="user-info-header" style="display:none"><div class="notLoggedGigya"><a class="loginGigya" href="index.html#">INICIAR SESIÓN <i class="fas fa-caret-right boxico"></i></a><a class="registerGigya" href="index.html#">REGISTRARSE <i class="fas fa-caret-right boxico"></i></a><i class="fad fa-user-circle boxNotLoggedGigya"></i></div></div><div class="loggedGigya"  style="display:none"><span class="initialsGigyaLogo"></span><a class="seeprofile" href="https://miperfil.#/" target="_blank"><span class="initialsGigya"></span><i class="fas fa-caret-right boxico"></i></a><a class="logoutGigya" href="index.html#">SALIR <i class="fas fa-caret-right boxico"></i></a></div><script type="text/javascript">
+            $(document).ready(function(){
+                $(".userbox").click(function(event ){
+                    $('.search-box-form, .middle-header .search-box-form').hide();
+
+                    $(".middle-header").removeClass("active");
+                    if ($(".userbox").hasClass("logged")) {
+                        $(".user-info-header").hide();
+                        $(".loggedGigya").show();
+                    }
+                    else
+                    {
+                        $(".user-info-header").show();
+                        $(".loggedGigya").hide();
+                    }
+                    $(".userbox").toggleClass("activo");
+                    $(".middle-header").addClass("active");
+                    event.stopPropagation();
+                });
+                $(document).bind("click", function(){
+                    if ($(".user-info-header").is(":visible") || $(".loggedGigya").is(":visible")){
+                        $(".user-info-header").hide();
+                        $(".loggedGigya").hide();
+                        $(".userbox").removeClass("activo");
+                        $(".middle-header").removeClass("active");
+                    }
+                });
+            });
+        </script><span class="btn-suscripcion"><a href="https://tienda.#/suscripcion-digital?utm_medium=hamburger&utm_campaign=suscripciongeneral&utm_source=#">Suscríbete</a></span></div></div></div><script type="text/javascript">
+            var numMaxElements = 8;
+        </script><nav itemscope = "" id="menu_header_1" itemtype = "http://www.schema.org/SiteNavigationElement" class="menu menu_header_1"><ul class="default-menu"><li class="aragon expandable first"><h2><a href="https://www.#/aragon/" itemprop="url"><span itemprop="name">Arag&oacute;n</span></a></h2><ul class="menu_level_1 arag&oacute;n-menu"><li class="aragon-zaragoza expandable first"><a href="https://www.#/aragon/zaragoza/" itemprop="url"><span itemprop="name">Zaragoza</span></a><ul class="menu_level_2 zaragoza-menu"><li class="aragon-zaragoza-fiestas-del-pilar no-expandable first last"><a href="https://www.#/aragon/zaragoza/fiestas-del-pilar/" itemprop="url"><span itemprop="name">Fiestas del Pilar</span></a></li></ul></li><li class="aragon-huesca no-expandable"><a href="https://www.#/aragon/huesca/" itemprop="url"><span itemprop="name">Huesca</span></a></li><li class="aragon-teruel no-expandable last"><a href="https://www.#/aragon/teruel/" itemprop="url"><span itemprop="name">Teruel</span></a></li></ul></li><li class="deportes expandable"><h2><a href="https://www.#/deportes/" itemprop="url"><span itemprop="name">Deportes</span></a></h2><ul class="menu_level_1 deportes-menu"><li class="deportes-futbol expandable first"><a href="https://www.#/deportes/futbol/" itemprop="url"><span itemprop="name">F&uacute;tbol</span></a><ul class="menu_level_2 f&uacute;tbol-menu"><li class="deportes-futbol-real-zaragoza no-expandable first"><a href="https://www.#/deportes/futbol/real-zaragoza/" itemprop="url"><span itemprop="name">Real Zaragoza</span></a></li><li class="deportes-futbol-sd-huesca no-expandable last"><a href="https://www.#/deportes/futbol/sd-huesca/" itemprop="url"><span itemprop="name">SD Huesca</span></a></li></ul></li><li class="deportes-baloncesto no-expandable"><a href="https://www.#/deportes/baloncesto/" itemprop="url"><span itemprop="name">Baloncesto</span></a></li><li class="deportes-balonmano no-expandable"><a href="https://www.#/deportes/balonmano/" itemprop="url"><span itemprop="name">Balonmano</span></a></li><li class="deportes-voleibol no-expandable"><a href="https://www.#/deportes/voleibol/" itemprop="url"><span itemprop="name">Voleibol</span></a></li><li class="deportes-aficion no-expandable last"><a href="https://www.#/deportes/aficion/" itemprop="url"><span itemprop="name">Afici&oacute;n</span></a></li></ul></li><li class="deportes-futbol-real-zaragoza no-expandable"><h2><a href="https://www.#/deportes/futbol/real-zaragoza/" itemprop="url"><span itemprop="name">Real Zaragoza</span></a></h2></li><li class="nacional no-expandable"><h2><a href="https://www.#/nacional/" itemprop="url"><span itemprop="name">Nacional</span></a></h2></li><li class="internacional no-expandable"><h2><a href="https://www.#/internacional/" itemprop="url"><span itemprop="name">Internacional</span></a></h2></li><li class="economia no-expandable"><h2><a href="https://www.#/economia/" itemprop="url"><span itemprop="name">Econom&iacute;a</span></a></h2></li><li class="ocio-y-cultura no-expandable last"><h2><a href="https://www.#/ocio-y-cultura/" itemprop="url"><span itemprop="name">Cultura</span></a></h2></li></ul></nav></header>                <div id="title-sticky" class="hidden">Cocina</div>
+    <ul id="more-items-menu" class="hidden"></ul>
+
+        
+
+
+    <main>
+        <div id="main-container" class="main-container con page-content">
+            
+                
+                                                                                            <div class="common-web-boards ">
+            
+            <div  id="m20-18-21"><section class="board-boardUrg">
+        
+    <div class="breaking-news con " id="m25-24-26">
+                
+            
+        <span class="bn-tag-endirecto " id="m34-33-35">TU HERALDO</span><a class="bn-title " id="m39-38-40" href="https://www.kioskoymas.com/publicacion/portada/heraldodearagon/3746" target="_blank" rel="follow">Consulta la portada de HERALDO DE ARAGÓN de este jueves, 21 de octubre</a></div></section></div>
+        </div>
+
+                                                                                            <div style="display: none" id="article-published-at-date" data-published-at-date="ACTUALIZADA 28/9/2021 A LAS 14:28" ></div>
+
+    <div  id="m20-18-21"><section><article class="article default"><div class="top-content"><div class="title-container"><h1 class="title " id="m25-24-26" itemprop="headline">Cocina</h1></div></div><div class="article-content"><div class="content-modules"><div  id="m30-29-31"><style>.top-content{display: none;}.content-boletin{width: 100%; max-width: 990px; margin: 50px auto 20px; padding: 20px 0 40px; overflow: hidden}.content-boletin .left-col{float: left; width: 45%; margin-right: 5%}.content-boletin .left-col img{width: 90%}.content-boletin .right-col{display: inline-block; padding: 0 10px; width: 50%}.content-boletin .right-col h1{margin-bottom: 30px; font-weight: 700; font-size: 42px; line-height: 44px; margin-left: -100px; font-family: 'Playfair Display', serif;}.content-boletin .right-col h1 span{position: relative; z-index: 0;}.content-boletin .right-col h1 span::before{content: ""; background: #c3d9ff; left: 15px; top: 0; position: absolute; height: 90%; width: 90%; z-index: -1; transform: rotate(-2deg);}.content-boletin .right-col p{margin-left: -10px; font-weight: 100; margin-bottom: 30px; font-size: 20px; line-height: 30px;}.content-boletin .right-col .bttn{position: relative; margin-left: -10px; border: 0; padding: 0; font-weight: 900; display: block; width: 100%; text-align: center; transition: all 0.2s ease-out; background: #005EA8; color: #ffffff; font-size: 20px; text-decoration: none; border-radius: 4px; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); line-height: 80px;}.content-boletin .right-col .bttn:hover{background-color: #333}.content-boletin .right-col .bttn span{margin-bottom: 0!important; padding: 0!important; font-size: 1em!important}.content-boletin .right-col .bttn.bttn_disabled{background-color: #ccc; cursor: default; color: #666}.content-boletin .right-col .bttn.bttn_disabled span{color: #666!important}.article-content{}h1.titulo-newsletter{font-size: 40px; font-family: 'Playfair Display', serif;}@media screen and (max-width:768px){.content-boletin{padding: 20px 10px 20px; margin: 20px auto 30px; border: none}.content-boletin .left-col, .content-boletin .right-col{padding: 0; width: 100%}.content-boletin .left-col{margin-bottom: 20px; max-height: 300px; overflow: hidden}.content-boletin .right-col h1{font-size: 2em}.content-boletin .right-col .bttn{width: 100%; font-size: 1.2em}}#breaking_hack_origin,.article-title,.breaking-news-wrapper{display: none}@media (max-width: 600px){.content-boletin .left-col img{width: 130%; margin-top: -60px;}.content-boletin .right-col h1{margin-bottom: 10px; margin-left: 0px;}.content-boletin .right-col p{margin-left: 0; font-weight: 300; margin-bottom: 12px; font-size: 1.2em; line-height: 1.2;}.content-boletin .right-col .bttn{margin-left: 0;}.content-boletin{margin-top: -20px;}.h1.titulo-newsletter{margin-bottom: 20px; font-size: 30px;}.content-boletin .right-col h1{font-size: 27px;}.content-boletin .right-col p{font-size: 17px;}}</style> <h1 class="titulo-newsletter">Newsletters</h1> <div class="content-boletin"> <div class="left-col"> <img src="https://dkumiip2e9ary.cloudfront.net/js/newsletters/cocina.png"></div><div class="right-col"> <h1>Desde <span>tu cocina</span></h1> <p>Recibe en tu correo nuestra nueva <strong>newsletter de recetas</strong> para hacer en casa. ¿Te animas? Solo necesitas los ingredientes y poner las manos en la masa.</p><p><strong>Regístrate gratis</strong> y tendrás cada semana diferentes platos para explorar tus dotes culinarias y convertirte en un auténtico chef. ¡A cocinar!</p><a href="index.html#" class="bttn" id="subscription_button">Recíbelo gratis</a> </div></div><script src="https://dkumiip2e9ary.cloudfront.net/js/newsletters/newsletters_gigya_PRO.js?20200429" type="text/javascript"></script><script>document.addEventListener("DOMContentLoaded", function (){$(".ad-unit#top").remove(); $(".ad-unit#right1").remove(); new gigyaAction({type: "newsletter", buttonSelector: "#subscription_button", name: "cocina", audienceId: "25bed1c5ba", termsAccepted: 1, addToLoVer: true});});</script></div></div></div></article></section></div>
+
+        
+    
+    
+
+
+    <div id="breaking_hack_origin">
+                
+                <script>
+            jQuery(function($) {
+                jQuery("#breaking_hack_origin").appendTo("#breaking_hack_destination");
+
+                var event = new CustomEvent("botomMovedForTaboola");
+                document.addEventListener("is.append", function () {
+                    document.dispatchEvent(event);
+                });
+                document.dispatchEvent(event);
+            });
+        </script>
+    </div>
+
+    
+    
+                            
+                                    
+            </div>
+    </main>
+                        <footer>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".otros-sitios").click(function(event ){
+                $(".col-pie-2").toggleClass("active");
+                $(".footer-last").toggleClass("active");
+
+                $(".otros-sitios .fa-caret-down").toggle();
+                $(".otros-sitios .fa-caret-up").toggle();
+
+                window.scrollTo(0,document.body.scrollHeight);
+            });
+        });
+    </script>
+    <div class="cont-pie con">
+        <a href="https://www.henneo.com/" title="Grupo Henneo" class="logo"></a>
+        <div class="col-pie-1">
+            <div  id="m20-18-21"><div class="copyright-text">
+    
+<p id="m25-24-26" >© HERALDO DE ARAGON EDITORA, S.L.U.<br>Teléfono 976 765 000 / - Pº. Independencia, 29, 50001 Zaragoza - CIF: B99288763 - Inscrita en el Registro Mercantil de Zaragoza al Tomo 3796, Libro 0, Folio 177, Sección 8, Hoja Z-50564<br>Queda prohibida toda reproducción sin permiso escrito de la empresa a los efectos del artículo 32.1, párrafo segundo, de la Ley de Propiedad Intelectual</p></div></div>
+        </div>
+        <div class="col-pie-2">
+            <ul class="footer-links-menu">
+  <li class="link no-expandable first">
+    <a href="https://www.#/politica-privacidad/" itemprop="url"><span itemprop="name">Pol&iacute;tica de privacidad</span></a>
+  </li>
+  <li class="link external no-expandable">
+    <a href="https://www.#/condiciones-contratacion/" target="_blank" itemprop="url"><span itemprop="name">Condiciones generales de contrataci&oacute;n</span></a>
+  </li>
+  <li class="link external no-expandable">
+    <a href="https://www.#/politica-cookies/" target="_blank" itemprop="url"><span itemprop="name">Pol&iacute;tica de cookies</span></a>
+  </li>
+  <li class="link no-expandable">
+    <a href="https://www.#/contacta/cartas-director/" itemprop="url"><span itemprop="name">Enviar cartas al director</span></a>
+  </li>
+  <li class="link no-expandable">
+    <a href="https://www.#/contacta/enviar-redaccion/" itemprop="url"><span itemprop="name">Enviar noticia a redacci&oacute;n</span></a>
+  </li>
+  <li class="link external no_follow no-expandable last">
+    <a href="https://www.bluemedia.es/" target="_blank" rel="nofollow" itemprop="url"><span itemprop="name">Publicidad</span></a>
+  </li>
+</ul>
+
+
+            <div class="datos">
+                Pº Independencia, 29, 50001 Zaragoza<br>
+                <i class="fa fa-phone-square" aria-hidden="true"></i> Teléfono 976 765 000
+            </div>
+            <div class="otros-sitios">
+                <a>
+                    <strong>Otras webs del grupo</strong>
+                    <i class="fas fa-caret-down"></i>
+                    <i class="fas fa-caret-up" style="display: none;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-last">
+        <div class="footer-bck">
+            <div class="footer-last-container">
+                <span class="tit-footer">Sitios webs del grupo de comunicación <strong>Henneo</strong></span>
+                <div class="list-footer">
+                    <strong>Editorial y Medios</strong>
+                    <ul class="footer-editorial-medios-menu">
+  <li class="link external no_follow no-expandable first">
+    <a href="https://www.20minutos.es" target="_blank" rel="nofollow" itemprop="url"><span itemprop="name">20minutos</span></a>
+  </li>
+  <li class="link external no_follow no-expandable">
+    <a href="https://www.lainformacion.com" target="_blank" rel="nofollow" itemprop="url"><span itemprop="name">La Informaci&oacute;n</span></a>
+  </li>
+  <li class="link external no_follow no-expandable">
+    <a href="http://www.diariodelaltoaragon.es" target="_blank" rel="nofollow" itemprop="url"><span itemprop="name">Diario del Alto Arag&oacute;n</span></a>
+  </li>
+  <li class="link external no_follow no-expandable">
+    <a href="https://cinemania.20minutos.es" target="_blank" rel="nofollow" itemprop="url"><span itemprop="name">Cineman&iacute;a</span></a>
+  </li>
+  <li class="link external no_follow no-expandable">
+    <a href="https://www.bluemedia.es/" target="_blank" rel="nofollow" itemprop="url"><span itemprop="name">Bluemedia</span></a>
+  </li>
+  <li class="link external no_follow no-expandable last">
+    <a href="https://www.alayans-media.com/" target="_blank" rel="nofollow" itemprop="url"><span itemprop="name">Alayans Media</span></a>
+  </li>
+</ul>
+
+
+                </div>
+
+                <div class="list-footer">
+                    <strong>Audiovisual</strong>
+                    <ul class="footer-audiovisual-menu">
+  <li class="link external no_follow no-expandable first">
+    <a href="http://www.chipaudiovisual.com" target="_blank" rel="nofollow" itemprop="url"><span itemprop="name">Chip Audiovisual</span></a>
+  </li>
+  <li class="link external no_follow no-expandable">
+    <a href="http://www.factoriaplural.es" target="_blank" rel="nofollow" itemprop="url"><span itemprop="name">Factor&iacute;a Plural</span></a>
+  </li>
+  <li class="link external no_follow no-expandable last">
+    <a href="https://www.globalstudio.es/" target="_blank" rel="nofollow" itemprop="url"><span itemprop="name">Global Studio</span></a>
+  </li>
+</ul>
+
+
+                </div>
+
+                <div class="list-footer">
+                    <strong>Tecnología</strong>
+                    <ul class="footer-tecnologia-menu">
+  <li class="link external no_follow no-expandable first last">
+    <a href="https://www.hiberus.com" target="_blank" rel="nofollow" itemprop="url"><span itemprop="name">Hiberus TI</span></a>
+  </li>
+</ul>
+
+
+                </div>
+
+                <div class="list-footer">
+                    <strong>Industrial</strong>
+                    <ul class="footer-distribucion-menu">
+  <li class="link external no_follow no-expandable first">
+    <a href="http://www.distridasa.com/web/default.htm" target="_blank" rel="nofollow" itemprop="url"><span itemprop="name">Distribuci&oacute;n &ndash; DASA</span></a>
+  </li>
+  <li class="link external no_follow no-expandable">
+    <a href="https://henneoprintingservices.com/" target="_blank" rel="nofollow" itemprop="url"><span itemprop="name">Impresi&oacute;n &ndash; Henneo Printing Services</span></a>
+  </li>
+  <li class="link external no_follow no-expandable last">
+    <a href="https://www.imprentaonline.net" target="_blank" rel="nofollow" itemprop="url"><span itemprop="name">Imprenta Online</span></a>
+  </li>
+</ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+    
+                </body>
+</html>
+
+
